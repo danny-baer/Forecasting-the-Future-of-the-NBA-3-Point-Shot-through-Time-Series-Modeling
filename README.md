@@ -46,14 +46,6 @@ Once we began forecasting several years into the future, we noticed a particular
 
 ![image](https://user-images.githubusercontent.com/51941454/76173043-e843df80-6158-11ea-9ce7-904b426d1577.png)
 
-# Key Results:
-## Key Results - Simulation:
-This is a graph with the number of plays on the x-axis and the fraction of shots from three on the y-axis. We can see that it seems to be converging to shooting around 42% of the shots from three.
-<img width="460" alt="Screen Shot 2019-12-24 at 2 42 20 PM" src="https://user-images.githubusercontent.com/46733087/76170755-1ff35d00-6142-11ea-8c5c-fed41c0ec076.png">
-
-We see the offense and defense are in a kind of dance where the offense overadjusts and then the defense adjusts and gets pulled back down and so on and so on. 
-
-## Key Results - Data Analysis:
 
 ![image](https://user-images.githubusercontent.com/47067688/76171194-cbea7780-6145-11ea-8226-7e18b76a2d8e.png)
 
@@ -77,11 +69,3 @@ Based on these observations we hypothesize that a shift from the current strateg
 Our model suggests that the NBA 3 point shot percentage will eventually converge to a nonzero, constant value of 35%. 
 
 Our model could be improved simply by training our model on more data. Since there's only been about 40 years since the 3 point line was added, this limits the amount of data we can use. Regardless, our model suggests that the percentage of shots taken from the 3 point line will continue to rise slightly in the next couple years and then likely converge to a point where it's no longer beneficial to increase the number of 3's taken.
-
-# Summary:
-For our project we wanted to analyze the role that the three point shot plays in the modern NBA. We used a Stochastic model to simulated a basketball plays and allowed the offense and defense to find the best strategy, it looks like shooting 42% of your shots from 3 is the best strategy. We expect the league to continue to shoot more 3s until the 2pt shot becomes more valuable.
-
-
-# Future Work:
-We plan to do further work looking at the convergence of the Stochastic Model. We need to compare and integrate the Stochastic Model and the Time Series.
-
